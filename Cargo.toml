@@ -1,0 +1,15 @@
+[package]
+
+name = "rust-string-quickchecked"
+version = "0.0.1"
+authors = ["Franklin Chen <franklinchen@franklinchen.com>"]
+
+[[bin]]
+
+name = "rust-string-quickchecked"
+
+[dependencies.quickcheck]
+git = "https://github.com/BurntSushi/quickcheck"
+
+[dependencies.quickcheck_macros]
+git = "https://github.com/BurntSushi/quickcheck"
